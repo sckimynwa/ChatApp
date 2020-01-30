@@ -6,10 +6,10 @@ $(function () {
   // buttons inputs
   var message = $("#message")
   var username = $("#username")
-  var send_message = $("send_message")
-  var send_username = $("send_username")
-  var chatroom = $("chatroom")
-  var feedback = $("feedback")
+  var send_message = $("#send_message")
+  var send_username = $("#send_username")
+  var chatroom = $("#chatroom")
+  var feedback = $("#feedback")
 
   // emit mesasge
   send_message.click(function () {
